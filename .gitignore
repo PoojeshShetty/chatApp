@@ -25,5 +25,5 @@ yarn-error.log*
 
 .fire*
 fire*
-
+!src/config/firebase.js
 storage.rules
