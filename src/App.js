@@ -57,21 +57,21 @@ function App() {
             }
             </Route>
 
-            <Route path="/newchat" >
+            <Route path="/newchat" exact>
             {user ? 
                <NewChat /> :
                <Redirect to="/login" />
             }
             </Route>
 
-            <Route path="/profile" >
+            <Route path="/profile" exact>
             {user ? 
                <Profile /> :
                <Redirect to="/login" />
             }
             </Route>
 
-            <Route path="/viewprofile/:id" >
+            <Route path="/viewprofile/:id" exact>
             {user ? 
                <ViewProfile /> :
                <Redirect to="/login" />
