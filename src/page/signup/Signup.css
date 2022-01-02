@@ -20,4 +20,5 @@
 }
 .signup__container .btn--loading img{
     width:2em;
+    filter: invert(39%) sepia(62%) saturate(4220%) hue-rotate(128deg) brightness(100%) contrast(98%);
 }
