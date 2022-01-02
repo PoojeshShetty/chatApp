@@ -1,0 +1,27 @@
+.Logo{
+    padding:10px;
+}
+
+.logo__container{
+    margin:0 auto;
+    background-color:  rgb(201, 241, 201);
+    border:1px solid  rgb(201, 241, 201);
+    border-radius: 20px;
+    max-width: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    color:var(--dark-color);
+}
+
+.logo__container img{
+    filter: invert(39%) sepia(62%) saturate(4220%) hue-rotate(128deg) brightness(100%) contrast(98%);
+    width: 80px;
+    height: 80px;
+}
+
+.logo__container .logo__txt{
+    font-weight: bolder;
+}

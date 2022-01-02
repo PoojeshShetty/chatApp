@@ -1,0 +1,33 @@
+.login__container{
+    padding:20px 5px;
+}
+
+.login__container form{
+    border:1px solid #777;
+    padding:20px;
+    border-radius: 20px;
+    max-width: 100%;
+    width: 400px;
+    margin:0 auto;
+}
+
+.login__container .form__links{
+    margin-top: 1em;
+}
+.btn--guest{
+    margin-left: 1em;
+}
+
+.login__container .btn--loading{
+    padding:0 20px;
+    display: inline-block;
+}
+
+.login__container .loginfrm__btncll{
+    display: flex;
+    align-items: center;
+}
+.login__container .btn--loading img{
+    width:2em;
+    padding:0;
+}

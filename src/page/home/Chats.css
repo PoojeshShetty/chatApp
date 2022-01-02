@@ -1,0 +1,75 @@
+.Chats{
+    background-color: rgb(203, 241, 203);
+    padding:15px;
+    
+    min-height: 80vh;
+}
+
+.Chats a{
+    text-decoration: none;
+    color:inherit;
+}
+.chat__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    border:1px solid #777;
+    border-radius:20px;
+    margin:5px 0;
+}
+
+.chat__content:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.chat__content .chat__avt{
+    overflow: hidden;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right:8px;
+    position: relative;
+}
+
+.chat__avt .user__status{
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    bottom:0.4em;
+    left: 0.6em;
+    border-radius: 50%;
+    border:1px solid white;
+}
+
+.chat__avt img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chat__info .chat__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.chat__info{
+    width:80%;
+}
+
+.chat__info .chat__lastChatAt{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.chat__info .chat__text{
+    overflow: hidden;
+    font-size: 0.8rem;
+}
+
+.chat__info .chat__header{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
